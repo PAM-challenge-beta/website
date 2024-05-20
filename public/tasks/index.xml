@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tasks on PAM challenge beta</title>
+    <link>//localhost:1313/tasks/</link>
+    <description>Recent content in Tasks on PAM challenge beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Mon, 20 May 2024 14:45:28 -0300</lastBuildDate><atom:link href="//localhost:1313/tasks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Task</title>
+      <link>//localhost:1313/tasks/first-task/</link>
+      <pubDate>Mon, 20 May 2024 14:45:28 -0300</pubDate>
+      
+      <guid>//localhost:1313/tasks/first-task/</guid>
+      <description>First Task # this is where the first task is described.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
