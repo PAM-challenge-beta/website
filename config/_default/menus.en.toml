@@ -20,7 +20,10 @@
   pageRef = "tasks"
   weight = 10
 
-
+[[main]]
+  name = "Datasets"
+  pageRef = "datasets"
+  weight = 10
 
 #[[main]]
 #  name = "Parent"
