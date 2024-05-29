@@ -1,5 +1,5 @@
 +++
-title = 'Task 1 : THE classic “supervise then generalize” task - where are we ? '
+title = 'Task 1 : Supervised sound detection with strong labelling'
 date = 2024-05-20T14:45:28-03:00
 draft = false
 showDate = false
