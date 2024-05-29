@@ -1,16 +1,15 @@
 +++
-title = 'Task 1'
+title = 'Task 1 : THE classic “supervise then generalize” task - where are we ? '
 date = 2024-05-20T14:45:28-03:00
 draft = false
 showDate = false
 +++
 
-# Task 1 - Detecting North Atlantic right whales in different environments
+## User context 
+“ I have developed a detection model showing a 99% accuracy and 99 % recall on my study site and my target whale species, recorded during last winter. And now, I would like to implement it onboard a mobile platform to monitor the same species year-round over a wider spatial area.
 
-The goal of this task is to produce a model that is able to detect North Atlantic right whale (NARW) upcalls across multiple soundscapes with a reasonable performance. The training dataset is a collection of recordings obtained in the Gulf of Maine and the test dataset are recordings collected in the Emerald Basin. The focus of this task is on the data preparation and training strategies used for producing robust models in different underwater environments.
-
-
-The models will be evaluated on how well they generalize to unseen data from other regions. The goal will be to maximize precision/recall and minimize the FPR per hour or recording.
+Doing so, I will NOT have access to the new recorded data at all! Will my model be able to keep the same level of performance ? Is my model choice OK or should I transition to another one ? ”
 
 
-See more details on the [GitHub repository]()
+## Task setup
+This is a classical supervised sound event detection task using strong labeling. This task aims to challenge and assess the ability of models to adapt and perform in varying acoustic environments, reflecting the real-world variability encountered in marine mammal monitoring. Also, to force the model to be species and dataset agnostic, two subtasks are proposed below.
