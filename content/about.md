@@ -8,7 +8,7 @@ draft = false
 
 The DCLDE community is the place-to-be where the FAIR state-of-the-art of AI models for the detection and classification of marine mammal vocal sounds based on Passive Acoustic Montiroing ([PAM](https://www.ncei.noaa.gov/products/passive-acoustic-data)) should be developed. However, DCLDE has not yet fully succeeded in setting up such a benchmarking framework where best performing models could be easily found, reproduced and improved over time. The absence of well-defined reference tasks using standardized metadata, the lack of a single and centralized hosting platform, the difficulty of assessing quantitatively the quality of annotations, are among the reasons explaining this delay.
 
-## Long-term objective
+## Objective
 
 Our long term objective is to develop ALL TOGETHER a FAIR and sustained data challenge (aka model benchmarking framework) for the PAM community. An initial focus has been put on the tasks of detection and classification of marine mammals sounds using a single hydrophone.
 
@@ -20,7 +20,7 @@ On the road towards this ambitious objective, we have identified the following a
 - co-developping all materials (task, data, codes) to build the challenge ;
 - interacting closely with ongoing international initiatives in PAM like [Tethys](https://tethys.sdsu.edu/) and [GLUBS](https://www.glubs.org/) ;
 - drawing best practices from neighboring AI communities like [DCASE](https://dcase.community/) ;
-- setting up an organization (steering group, patform).
+- setting up a **permanent** challenge organization (steering group, patform).
 
 ## Preliminary achievements 
 
