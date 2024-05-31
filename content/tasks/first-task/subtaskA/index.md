@@ -1,5 +1,5 @@
 +++
-title = 'Subtask A'
+title = 'Subtask 1A'
 date = 2024-05-20T14:45:28-03:00
 draft = false
 showDate = false
@@ -8,57 +8,17 @@ showDate = false
 
 ## Development set
 
-### Audio 
-
 The development set for this task is derived from the DCLDE 2013 dataset, specifically the selection that contains North Atlantic right whale (NARW) upcalls. 
 
-### Annotation 
-
-The annotations for the training set have been standardized as follows:
-
-| filename | start | end |
-| ------- | ------ | ---- |
-
-Where:
-- `filename`: Name of the file containing a NARW upcall.
-- `start`: Start time in seconds from the beginning of the file where the upcall begins.
-- `end`: End time in seconds where the upcall concludes.
 
 Annotations labeled as uncertain have been excluded from the dataset. Additional dataset details are available on the [DCLDE 2013 dataset page](https://research-portal.st-andrews.ac.uk/en/datasets/dclde-2013-workshop-dataset).
-
-For instance:
-
-Consider an audio file named `NARW_20230601_0845.wav` containing a detected North Atlantic right whale upcall. The annotation for this file in the dataset might look like this:
-
-| filename                  | start | end  |
-|---------------------------|-------|------|
-| NARW_20230601_0845.wav    | 123.5   | 125.2  |
-
-Where:
-- `filename`: `NARW_20230601_0845.wav` is the name of the audio file.
-- `start`: `123.5` seconds is the time from the start of the audio file when the NARW upcall begins.
-- `end`: `125.2` seconds is the time when the upcall ends.
 
 
 
 ## Evaluation set
 
-### Audio 
-
 The test data was collected in the Gulf of St. Lawrence and is a subset of the data used in a recent publication, which can be reviewed here. The test set includes 25 hours of recordings at 32KHz, with 1157 annotated NARW upcalls.
 
-### Annotation 
-
-The annotations for the test set include:
-
-| filename   | timestamp |
-| ---------- | --------- |
-
-Where:
-- `filename`: The name of the file where the detection occurred.
-- `timestamp`: The detection time from the start of the file.
-
-You may find both train an test set annotatiosn in the annotations folder.
 
 
 
