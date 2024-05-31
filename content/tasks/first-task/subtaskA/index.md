@@ -17,15 +17,15 @@ The test data was collected in the Gulf of St. Lawrence and is a subset of the d
 
 Different underwater environemtns in terms of geographic location, and depth, various sources of transient sounds/noise (human activity and other biological sounds), distinct ambient sounds (noise from breaking waves, wind, rain, etc.), differences in sound propagation (a vocalization may sound different due to reverberations, diffraction, attenuation and reflections), differences in recording hardware and system self-noise, etc.
 
-### Getting started and baseline codes
+## Getting started and baseline codes
 
-## Getting started
+### Getting started
 
 We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/MeridianOSmOSE_AutomaticDetectionOfCetaceans_Benchmark/blob/task1/task1/README.md) to serve as an example and to provide general guidance for approaching this task. This approach is intended solely as a reference, and you are not required to follow any specific steps outlined in it, except for running the metrics file. Nonetheless, this serves as a useful guideline for participating in the challenge.
 
-## Baseline 
+### Baseline 
 
-The proposed baseline is a simple 2-layer CNN, exhibiting the following results: 
+The proposed baseline is a shallow 2-layer CNN, exhibiting the following results: 
 
 - Precision: 0.5770114942528736
 - Recall: 0.21694036300777875
