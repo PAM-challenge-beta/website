@@ -35,7 +35,7 @@ In the image above, several detection timestamps are indicated by red lines, all
 
 In the image above, a single detection timestamp (red line) intersects with several ground truth buffers (blue boxes). In this case, the count of true positives will be incremented for each ground truth that the detection timestamp overlaps, despite there being "only one" detection.
 
-
+Note that those metrics will be averaged over all labels, but the score per label will also be computed and report.
 
 
 ## Task rules and submission
