@@ -6,12 +6,12 @@ showDate = false
 +++
 
 
-## Development set
+## Development set (dataset DCLDE2013)
 
 The development data for this task is derived from the DCLDE 2013 dataset, specifically the selection that contains North Atlantic right whale (NARW) upcalls (leaving aside the gunshot vocalizations). The development annotation file `annotations_DCLDE2013.csv` can be found on the challenge downloading [space](https://drive.google.com/drive/folders/1BGKkMnaxnWV0U09m9ViIlPCs7eAaSub8?usp=sharing). Annotations labeled as uncertain have been excluded from the dataset. The original dataset and additional dataset details can be accessed here: [DCLDE 2013 dataset page](https://research-portal.st-andrews.ac.uk/en/datasets/dclde-2013-workshop-dataset).
 
 
-## Evaluation set
+## Evaluation set (dataset GSL)
 
 The test data was collected in the Gulf of St. Lawrence and is a subset of the data used in a recent publication, which can be reviewed [here](https://pubs.aip.org/asa/jasa/article/147/4/2636/1058640/Performance-of-a-deep-neural-network-at-detecting). The test set includes 25 hours of recordings at 32KHz, with 1157 annotated NARW upcalls. The testing annotation file `annotations_GSL.csv` can be found on the challenge downloading [space](https://drive.google.com/drive/folders/1BGKkMnaxnWV0U09m9ViIlPCs7eAaSub8?usp=sharing). The original data set from this publication is available [here](https://doi.org/10.20383/101.0241).
 
