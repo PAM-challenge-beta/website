@@ -7,7 +7,7 @@ showDate = false
 
 ## Development set (all datasets except Balleny Island 2015)
 
-
+Note that the proposition is a beta-test. We strongly believe that a cross validation over the 11 datasets should be done in future versions
 
 ## Evaluation set (dataset Balleny Island 2015)
 
@@ -25,7 +25,6 @@ The test set includes 200 hours of recordings at 1KHz (but it can be downsampled
 
 ## Evaluation metrics
 
-**Please, note that the proposition is a beta-test. We strongly believe that a cross validation over the 11 datasets should be done in future versions**
 
 
 Models will be evaluated based on Precision, Recall and F1 score average over each label. 
