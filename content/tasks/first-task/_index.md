@@ -23,32 +23,35 @@ This is a classical supervised sound event detection task using strong labeling.
 ### File organization
 
 ```
-Task_1
+DCLDE2013
 │
-└───Subtask_1A
+└───audio
 │   │
-│   └───annotations
-│       │   annotations_DCLDE2013.csv
-│       │   annotations_GSL.csv
-│   │
-│   └───audio
-|       │   └───DCLDE2013
-|               │   └───NOPP6_EST_20090329
-|                        │   NOPP6_EST_20090329_000000.wav
-|                        │   NOPP6_EST_20090329_001500.wav
-|                        │   ...
-|       │   └───GSL
-│               │   B_cont_0.wav
-│               │   B_cont_1.wav
-│               │   ...
-└───Subtask_1B
-│   │
-│   └───annotations
-│       │   file111.txt
-│       │   file112.txt
+│   └───NOPP6_EST_20090329
+│       │   NOPP6_EST_20090329_000000.wav
 │       │   ...
 │   │
+│   └───annotations
+|       │   └───annotations_DCLDE2013.csv
+BlueFinLibrary
+│
+└───BlueFinLibrary_BallenyIslands2015
+│   │
 │   └───audio
+│       │   20150115_170000.wav
+│       │   ...
+│   │
+│   └───annotations
+|       │   └───annotations_BallenyIslands2015.csv
+│
+└───BlueFinLibrary_casey2014
+│   │
+│   └───audio
+│       │   200_2013-12-25_06-00-00.wav
+│       │   ...
+│   │
+│   └───annotations
+|       │   └───annotations_BallenyIslands2015.csv
 ```
 
 
