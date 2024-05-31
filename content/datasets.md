@@ -8,7 +8,7 @@ All open source datasets used in our challenge are available for downloading wit
 
 
 
-## Dataset organization and format
+## Organization and format
 
 ### File organization
 
@@ -77,7 +77,7 @@ You may find both train an test set annotatiosn in the annotations folder.
 
 
 
-## Dataset description
+## General description
 
 
 
