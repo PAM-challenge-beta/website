@@ -17,6 +17,15 @@ The test data was collected in the Gulf of St. Lawrence and is a subset of the d
 
 Different underwater environemtns in terms of geographic location, and depth, various sources of transient sounds/noise (human activity and other biological sounds), distinct ambient sounds (noise from breaking waves, wind, rain, etc.), differences in sound propagation (a vocalization may sound different due to reverberations, diffraction, attenuation and reflections), differences in recording hardware and system self-noise, etc.
 
+
+
+## Evaluation protocol
+
+Models will be evaluated based on Precision, Recall and F1 score average over each label. A complete explanation of these metrics can be found on the main task [page](https://pam-challenge-beta.github.io/website/tasks/first-task/#evaluation-metrics). A 3-second buffer will be applied, where detections within this range from the annotation will be considered a true positive. As explained in the next section, a complete code is provided to run these metrics.
+
+
+
+
 ## Getting started and baseline codes
 
 ### Getting started
