@@ -18,7 +18,13 @@ Doing so, I will NOT have access to the new recorded data at all! Will my model 
 
 This is a classical supervised sound event detection task using strong labeling. This task aims to challenge and assess the ability of models to adapt and perform in varying acoustic environments, reflecting the real-world variability encountered in marine mammal monitoring. Also, to force the model to be species and dataset agnostic, two subtasks are proposed below.
 
-## Annotation format
+## Dataset organization and format
+
+### File organization
+
+
+
+### Annotation format
 
 All annotations of the development sets have been standardized as follows:
 
