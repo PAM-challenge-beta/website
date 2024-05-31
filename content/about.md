@@ -6,7 +6,7 @@ draft = false
 
 ## Context and motivations
 
-The DCLDE community is the place-to-be where the FAIR state-of-the-art of AI models for the detection and classification of marine mammal vocal sounds should be developed. However, DCLDE has not yet fully succeeded in setting up such a benchmarking framework where best performing models could be easily found, reproduced and improved over time. The absence of well-defined reference tasks using standardized metadata, the lack of a single and centralized hosting platform, the difficulty of assessing quantitatively the quality of annotations, are among the reasons explaining this delay.
+The DCLDE community is the place-to-be where the FAIR state-of-the-art of AI models for the detection and classification of marine mammal vocal sounds based on Passive Acoustic Montiroing ([PAM](https://www.ncei.noaa.gov/products/passive-acoustic-data)) should be developed. However, DCLDE has not yet fully succeeded in setting up such a benchmarking framework where best performing models could be easily found, reproduced and improved over time. The absence of well-defined reference tasks using standardized metadata, the lack of a single and centralized hosting platform, the difficulty of assessing quantitatively the quality of annotations, are among the reasons explaining this delay.
 
 ## Long-term objective
 
