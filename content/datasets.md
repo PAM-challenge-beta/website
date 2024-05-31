@@ -8,9 +8,7 @@ All open source datasets used in our challenge are available for downloading wit
 
 
 
-## Organization and format
-
-### File organization
+## File organization
 
 Here is the folder tree structure we are using to organize audio and annotation files within our datasets.
 
@@ -48,7 +46,7 @@ BlueFinLibrary
 
 
 
-### Annotation format
+## Annotation format
 
 All annotations of the development sets have been standardized as follows:
 
