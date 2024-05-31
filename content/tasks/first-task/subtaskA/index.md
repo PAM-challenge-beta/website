@@ -8,31 +8,26 @@ showDate = false
 
 ## Development set
 
-The development set for this task is derived from the DCLDE 2013 dataset, specifically the selection that contains North Atlantic right whale (NARW) upcalls. 
-
+The training data for this task is derived from the DCLDE 2013 dataset, specifically the selection that contains North Atlantic right whale (NARW) upcalls. The original dataset can be accessed here: [DCLDE 2013 dataset page](https://research-portal.st-andrews.ac.uk/en/datasets/dclde-2013-workshop-dataset).
+- Training annotation file: `annotations_DCLDE2013.csv`
 
 Annotations labeled as uncertain have been excluded from the dataset. Additional dataset details are available on the [DCLDE 2013 dataset page](https://research-portal.st-andrews.ac.uk/en/datasets/dclde-2013-workshop-dataset).
 
 
-
 ## Evaluation set
+
+
+The test data was collected in the Gulf of St. Lawrence and is a subset of the data used in a recent publication, which can be reviewed [here](https://pubs.aip.org/asa/jasa/article/147/4/2636/1058640/Performance-of-a-deep-neural-network-at-detecting). The original data set from this publication is available [here](https://doi.org/10.20383/101.0241).
+
+
+Both the training and test data have been reorganized and are available in a single downloadable package.
+
+- Testing annotation file: `annotations_GSL.csv`
 
 The test data was collected in the Gulf of St. Lawrence and is a subset of the data used in a recent publication, which can be reviewed here. The test set includes 25 hours of recordings at 32KHz, with 1157 annotated NARW upcalls.
 
 
 
-
-## Task rules and submission
-
-Participants are free to employ any preprocessing technique and network architecture. The onyl requirement is that the final output of your model MUST be a CSV file formatted following the annotation format of evaluation set described above. A 1.5-second buffer will be applied, where detections within this range from the annotation will be considered a true positive. Please see the examples in this page for a more in depth discussion on how to provide the timestamps.
-
-Official challenge submission consists of:
-
-- System output file (*.csv)
-- Metadata file (*.yaml)
-- Technical report explaining in sufficient detail the method (*.pdf)
-
-System output should be presented as a single text-file (in CSV format, with a header row as shown in the example output below). 
 
 
 
