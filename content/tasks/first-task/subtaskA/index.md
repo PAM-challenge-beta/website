@@ -20,13 +20,11 @@ Different underwater environemtns in terms of geographic location, and depth, va
 
 Models will be evaluated based on Precision, Recall and F1 score average over each label. A complete explanation of these metrics can be found on the main task [page](https://pam-challenge-beta.github.io/website/tasks/first-task/#evaluation-metrics). A 3-second buffer will be applied, where detections within this range from the annotation will be considered a true positive. As explained in the next section, a complete code is provided to run these metrics.
 
-## Getting started and baseline codes
-
-### Getting started
+## Getting started 
 
 We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/MeridianOSmOSE_AutomaticDetectionOfCetaceans_Benchmark/blob/task1/task1/README.md) to serve as an example and to provide general guidance for approaching this task. This approach is intended solely as a reference, and you are not required to follow any specific steps outlined in it, except for running the metrics file. Nonetheless, this serves as a useful guideline for participating in the challenge.
 
-### Baseline 
+## Baseline 
 
 The proposed baseline is a shallow 2-layer CNN, exhibiting the following results: 
 
