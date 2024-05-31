@@ -44,3 +44,20 @@ Where:
 - `label`: `up` the label for this annotation. Note that for this particular challenge, all entries have the same label. The label column is included just for consistency.
 
 You may find both train an test set annotatiosn in the annotations folder.
+
+
+
+## Task rules and submission
+
+Participants are free to employ any preprocessing technique and network architecture. The onyl requirement is that the final output of your model MUST be a CSV file formatted following the annotation format of evaluation set described above. A 1.5-second buffer will be applied, where detections within this range from the annotation will be considered a true positive. Please see the examples in this page for a more in depth discussion on how to provide the timestamps.
+
+Official challenge submission consists of:
+
+- System output file (*.csv)
+- Metadata file (*.yaml)
+- Technical report explaining in sufficient detail the method (*.pdf)
+
+System output should be presented as a single text-file (in CSV format, with a header row as shown in the example output below). 
+
+
+
