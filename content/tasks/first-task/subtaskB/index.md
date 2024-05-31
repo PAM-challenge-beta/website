@@ -5,11 +5,11 @@ draft = false
 showDate = false
 +++
 
-## Development set (all datasets except Balleny Island 2015)
+## Development set (all datasets except BlueFinLibrary/Balleny Island 2015)
 
-Note that the proposition is a beta-test. We strongly believe that a cross validation over the 11 datasets should be done in future versions
+We strongly believe that a cross validation over the 11 datasets should be done in future versions. See the general dataset page presentation for more 
 
-## Evaluation set (dataset Balleny Island 2015)
+## Evaluation set (dataset BlueFinLibrary/Balleny Island 2015)
 
 Among the eleven datasets in the original publication, the dataset Balleny Island 2015 was chosen for evaluation. This dataset represents a unique geographical location, the recording device used is only shared with one other dataset and finally, all seven labels are significatively present in it.
 
@@ -22,11 +22,25 @@ The test set includes 200 hours of recordings at 1KHz (but it can be downsampled
 - 148 Bp20Plus
 - 78 BpDS
 
+## Evaluation protocol
 
-## Evaluation metrics
+Models will be evaluated based on Precision, Recall and F1 score average over each label. A complete explanation of these metrics can be found on the main task [page](https://pam-challenge-beta.github.io/website/tasks/first-task/#evaluation-metrics). A 10-second buffer will be applied, where detections within this range from the annotation will be considered a true positive. As explained in the next section, a complete code is provided to run these metrics.
 
 
 
-Models will be evaluated based on Precision, Recall and F1 score average over each label. 
+## Getting started and baseline codes
 
-A 10-second buffer will be applied, where detections within this range from the annotation will be considered a true positive.
+### Getting started
+
+We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/MeridianOSmOSE_AutomaticDetectionOfCetaceans_Benchmark/blob/task1/task1/README.md) to serve as an example and to provide general guidance for approaching this task. This approach is intended solely as a reference, and you are not required to follow any specific steps outlined in it, except for running the metrics file. Nonetheless, this serves as a useful guideline for participating in the challenge.
+
+### Baseline 
+
+The proposed baseline is a shallow 2-layer CNN, exhibiting the following results: 
+
+- Precision: 0.5770114942528736
+- Recall: 0.21694036300777875
+- F1 Score: 0.31532663316582915
+
+
+
