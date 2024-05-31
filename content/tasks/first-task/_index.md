@@ -22,6 +22,35 @@ This is a classical supervised sound event detection task using strong labeling.
 
 ### File organization
 
+```
+Task_1
+│
+└───Subtask_1A
+│   │
+│   └───annotations
+│       │   annotations_DCLDE2013.csv
+│       │   annotations_GSL.csv
+│   │
+│   └───audio
+|       │   └───DCLDE2013
+|               │   └───NOPP6_EST_20090329
+|                        │   NOPP6_EST_20090329_000000.wav
+|                        │   NOPP6_EST_20090329_001500.wav
+|                        │   ...
+|       │   └───GSL
+│               │   B_cont_0.wav
+│               │   B_cont_1.wav
+│               │   ...
+└───Subtask_1B
+│   │
+│   └───annotations
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   │
+│   └───audio
+```
+
 
 
 ### Annotation format
