@@ -12,13 +12,15 @@ The DCLDE community is the place-to-be where the FAIR state-of-the-art of AI mod
 
 Our long term objective is to develop ALL TOGETHER a FAIR and sustained data challenge (aka model benchmarking framework) for the PAM community. An initial focus has been put on the tasks of detection and classification of marine mammals sounds using a single hydrophone.
 
-## Actions 
+## Methods 
 
-On the road towards this ambitious objective, we have identified the following actions :
+On the road towards this ambitious objective, we have identified the following actions that will need to be undertaken :
 
-- federating ongoing individual efforts through an **official working group**
-- interacting closely with ongoing international initiatives in PAM like [Tethys](https://tethys.sdsu.edu/) and [GLUBS](https://www.glubs.org/)
-- drawing best practices from neighboring AI communities like [DCASE](https://dcase.community/)
+- federating ongoing individual efforts through an **official working group** ;
+- co-developping all materials (task, data, codes) to build the challenge ;
+- interacting closely with ongoing international initiatives in PAM like [Tethys](https://tethys.sdsu.edu/) and [GLUBS](https://www.glubs.org/) ;
+- drawing best practices from neighboring AI communities like [DCASE](https://dcase.community/) ;
+- setting up an organization (steering group, patform).
 
 ## Preliminary achievements 
 
