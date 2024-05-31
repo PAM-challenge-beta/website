@@ -50,6 +50,8 @@ Official challenge submission consists of:
 
 System output should be presented as a single text-file (in CSV format, with a header row as shown in the example output below). 
 
-## Subtasks (development and evaluation sets, evaluation protocol, getting started and baseline codes)
+## Subtasks 
+
+Please find below development and evaluation sets, evaluation protocol, getting started and baseline codes, for the two subtasks of task 1.
 
 
