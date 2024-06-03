@@ -5,11 +5,11 @@ draft = false
 showDate = false
 +++
 
-## Development set (all datasets except BlueFinLibrary/Balleny Island 2015)
+## Development set
 
-We strongly believe that a cross validation over the 11 datasets should be done in future versions. See the general dataset page presentation for more 
+Our development set is composed of all SORP datasets except the Balleny Island 2015 dataset, kept for evaluation. 
 
-## Evaluation set (dataset BlueFinLibrary/Balleny Island 2015)
+## Evaluation set
 
 Among the eleven datasets in the original publication, the dataset Balleny Island 2015 was chosen for evaluation. This dataset represents a unique geographical location, the recording device used is only shared with one other dataset and finally, all seven labels are significatively present in it.
 
@@ -38,9 +38,9 @@ We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/Merid
 
 The proposed baseline is a shallow 2-layer CNN, exhibiting the following results: 
 
-- Precision: 0.5770114942528736
-- Recall: 0.21694036300777875
-- F1 Score: 0.31532663316582915
+- Precision: 
+- Recall: 
+- F1 Score: 
 
 
 
