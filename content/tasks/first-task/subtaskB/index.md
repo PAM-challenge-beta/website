@@ -7,13 +7,15 @@ showDate = false
 
 ## Development set
 
-Our development set is composed of all SORP datasets except the Balleny Island 2015 dataset, kept for evaluation. 
+Our development set is composed of all SORP datasets except the Balleny Island 2015 dataset, kept for evaluation. The development annotation files and associated audio data can be found [here](). See the general dataset presentation [page](https://github.com/PAM-challenge-beta/website/blob/main/content/datasets.md) for more details on the SORP dataset.
+
+
 
 ## Evaluation set
 
 Among the eleven datasets in the original publication, the dataset Balleny Island 2015 was chosen for evaluation. This dataset represents a unique geographical location, the recording device used is only shared with one other dataset and finally, all seven labels are significatively present in it.
 
-The test set includes 200 hours of recordings at 1KHz (but it can be downsampled at 250Hz as no target vocalization gets higher than 120Hz), with:
+The evaluation set includes 200 hours of recordings at 1KHz (but it can be downsampled at 250Hz as no target vocalization gets higher than 120Hz), with:
 - 923 BmA 
 - 44 BmB
 - 31 BmZ
@@ -21,6 +23,10 @@ The test set includes 200 hours of recordings at 1KHz (but it can be downsampled
 - 951 Bp20Hz
 - 148 Bp20Plus
 - 78 BpDS
+
+The test annotation file `annotations_BallenyIsland2015.csv` and associated audio data can be found [here]().  See the general dataset presentation [page](https://github.com/PAM-challenge-beta/website/blob/main/content/datasets.md) for more details on the DCLDE2013 dataset.
+
+
 
 ## Evaluation protocol
 
