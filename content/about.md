@@ -26,8 +26,8 @@ On the road towards this ambitious objective, we have identified the following a
 
 Our first works have been to:
 
-- draw up a list of criteria requirements to design a data challenge for PAM (available [here](https://docs.google.com/document/d/1HhDM2EMarpssmFlC9bBzf47uhxh0NjBTSyirhpJQwjM/edit)) ;
-- conduct a comparative analysis of ongoing PAM projects sharing our objective (available [here](https://docs.google.com/document/d/1HhDM2EMarpssmFlC9bBzf47uhxh0NjBTSyirhpJQwjM/edit)) ;
+- draw up a list of criteria requirements to design a data challenge for PAM (available [here](https://drive.google.com/file/d/1jFdWLW9AIAsHEachmQLATdfYfJ98793h/view?usp=sharing)) ;
+- conduct a comparative analysis of ongoing PAM projects sharing our objective (available [here](https://drive.google.com/file/d/1jFdWLW9AIAsHEachmQLATdfYfJ98793h/view?usp=sharing)) ;
 - set up a beta version of the data challenge fitting at best our criteria ([Github](https://github.com/PAM-challenge-beta) and [website](https://pam-challenge-beta.github.io/website/)). 
 
 
