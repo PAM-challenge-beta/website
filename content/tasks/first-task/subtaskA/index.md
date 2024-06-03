@@ -22,7 +22,7 @@ Models will be evaluated based on Precision, Recall and F1 score average over ea
 
 ## Getting started 
 
-We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/MeridianOSmOSE_AutomaticDetectionOfCetaceans_Benchmark/blob/task1/task1/README.md) to serve as an example and to provide general guidance for approaching this task. This approach is intended solely as a reference, and you are not required to follow any specific steps outlined in it, except for running the metrics file. Nonetheless, this serves as a useful guideline for participating in the challenge.
+We have prepared a sample code on [GitHub](https://github.com/PAM-challenge-beta/2024-task1) to serve as an example and to provide general guidance for approaching this task. This approach is intended solely as a reference, and you are not required to follow any specific steps outlined in it, except for running the metrics file. Nonetheless, this serves as a useful guideline for participating in the challenge.
 
 ## Baseline 
 
