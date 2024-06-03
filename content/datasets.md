@@ -4,7 +4,7 @@ date = 2024-05-20T15:07:16-03:00
 draft = false
 +++
 
-All open source datasets used in our challenge are available for downloading within a single online storage [space]([https://drive.google.com/drive/folders/1W1yF3_wbndhBikcQjYjp81TnK5-qIBaT](https://drive.google.com/drive/folders/1BGKkMnaxnWV0U09m9ViIlPCs7eAaSub8)). Note that already existing datasets such as the DCLDE datasets have been reorganized and standardized into a same format.
+All open source datasets used in our challenge are available for downloading within a single online storage [space](https://drive.google.com/drive/folders/1BGKkMnaxnWV0U09m9ViIlPCs7eAaSub8?usp=sharing). Note that already existing datasets such as the DCLDE datasets have been reorganized and standardized into a same format.
 
 
 
