@@ -93,9 +93,9 @@ Here are the long names of annotation classes:
 - BmA: Antarctic blue whale unit A
 - BmB: Antarctic blue whale unit AB
 - BmZ: Antarctic blue whale z-call
-- BmD: Blue whale FM (AKA D-calls)
+- BmD: Blue whale FM (aka D-calls)
 - Bp20Hz: Fin whale 20 Hz pulse
 - Bp20Plus: Fin whale 20 Hz pulse with energy at higher frequencies (e.g. 89 or 99 Hz components)
-- BpDS: Fin whale FM calls (AKA ‘high frequency’ downsweep; AKA 40 Hz pulse). 
+- BpDS: Fin whale FM calls (aka `high frequency` downsweep; aka 40 Hz pulse)
 - BmD : Blue whale Dcall
 - 40Hz : Fin whale 40 Hz call
