@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "PAM challenge (beta version)"
+title = "PAM challenge (very beta version)"
 
 [params]
   displayName = "EN"
