@@ -17,10 +17,10 @@ Our long term objective is to develop ALL TOGETHER a FAIR and sustained data cha
 On the road towards this ambitious objective, we have identified the following actions that will need to be undertaken :
 
 - federating ongoing individual efforts through an **official working group** ;
-- co-developping all materials (task, data, codes) to build the challenge ;
+- co-developing all materials (task, data, codes) to build the challenge ;
 - interacting closely with ongoing international initiatives in PAM like [Tethys](https://tethys.sdsu.edu/) and [GLUBS](https://www.glubs.org/) ;
 - drawing best practices from neighboring AI communities like [DCASE](https://dcase.community/) ;
-- setting up a **permanent** challenge organization (steering group, patform).
+- setting up a **permanent** challenge organization (steering group, platform).
 
 ## Preliminary achievements 
 
