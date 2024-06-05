@@ -42,11 +42,10 @@ We have prepared a sample code on [GitHub](https://github.com/GabrielDubus/Merid
 
 ### Baseline 
 
-The proposed baseline is a shallow 2-layer CNN, exhibiting the following results: 
+The proposed baseline is a shallow 3-layer CNN, exhibiting the following results: 
 
-- Precision: 
-- Recall: 
-- F1 Score: 
-
+- Precision: 0.4146943733143282
+- Recall: 0.3907905837775654
+- F1 Score: 0.40238779088282717
 
 
